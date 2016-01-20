@@ -5,6 +5,7 @@ license 'All rights reserved'
 description 'Installs/Configures chef_env_analytics'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 source_url 'https://github.com/anthonycarminati/chef_env_analytics'
+issues_url 'https://github.com/anthonycarminati/chef_env_analytics/issues'
 version '0.1.0'
 
 recipe 'chef_env_analytics::setup'
