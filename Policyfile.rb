@@ -4,13 +4,13 @@
 # https://github.com/opscode/chef-dk/blob/master/POLICYFILE_README.md
 
 # A name that describes what the system you're building with Chef does.
-name "chef_template"
+name "chef_env_analytics"
 
 # Where to find external cookbooks:
 default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
-run_list "chef_template::default"
+run_list "chef_env_analytics::default"
 
 # Specify a custom source for a single cookbook:
-cookbook "chef_template", path: "."
+cookbook "chef_env_analytics", path: "."
