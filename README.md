@@ -10,6 +10,12 @@ AWS OpsWorks is built around 5 key lifecycle events:
 - undeployment (undeploy.rb)
 - shutdown (shutdown.rb)
 
+The key functional requirements and software components of this cookbook are:
+
+- install/configure python and relevant packages via pip
+- install/configure relevant db drivers
+- install/configure AWS CodeDeploy Agent
+
 Requirements
 ------------
 TODO: List cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
