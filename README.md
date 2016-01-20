@@ -1,13 +1,18 @@
-chef_env_analytics Cookbook
+Chef Environment Cookbook - Analytics
 ===========================
-TODO: Enter the cookbook description here.
+This cookbook, written as an environment cookbook, is being developed to launch and maintain servers through AWS OpsWorks for the purpose of advanced analytics.
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+AWS OpsWorks is built around 5 key lifecycle events:
+
+- setup (setup.rb)
+- configuration (configure.rb)
+- deployment (deploy.rb)
+- undeployment (undeploy.rb)
+- shutdown (shutdown.rb)
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
+TODO: List cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
 
 e.g.
 #### packages
@@ -15,6 +20,8 @@ e.g.
 
 Attributes
 ----------
+TODO: List parameters here for each recipe.
+
 #### chef_env_analytics::default
 <table>
   <tr>
@@ -105,23 +112,6 @@ Attributes
     <td><tt>true</tt></td>
   </tr>
 </table>
-
-Usage
------
-#### chef_env_analytics::default
-TODO: Write usage instructions for each cookbook.
-
-e.g.
-Just include `chef_env_analytics` in your node's `run_list`:
-
-```json
-{
-  "name":"my_node",
-  "run_list": [
-    "recipe[chef_env_analytics]"
-  ]
-}
-```
 
 Contributing
 ------------
