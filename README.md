@@ -18,16 +18,20 @@ The key functional requirements and software components of this cookbook are:
 
 Requirements
 ------------
-TODO: List cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
+<!--TODO: List cookbook requirements.-->
+#### Platforms
 
-e.g.
-#### packages
-- `toaster` - chef_env_analytics needs toaster to brown your bagel.
+#### Libraries
+
+#### Other Cookbooks
+
+#### Packages
+
+#### Operating Systems
 
 Attributes
 ----------
-TODO: List parameters here for each recipe.
-
+<!--TODO: List parameters here for each recipe.-->
 #### chef_env_analytics::default
 <table>
   <tr>
